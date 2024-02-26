@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo di Contatto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #container {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .form-group {
+            text-align: left;
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><img src="https://i.postimg.cc/13XpZsk2/logodigimed.png" alt="logodigimed" width="300" height="300" /></p>
+        <div id="header">
+            <h1>Sei interessato?</h1>
+            <h2>Inserisci i tuoi dati qui sotto:</h2>
+        </div>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome della compagnia:</label>
+                <input id="nome" name="nome" required="" type="text" />
+            </div>
+            <div class="form-group">
+                <label for="cognome">Nome:</label>
+                <input id="cognome" name="cognome" required="" type="text" />
+            </div>
+            <div class="form-group">
+                <label for="telefono">Cognome:</label>
+                <input id="telefono" name="telefono" required="" type="tel" />
+            </div>
+            <div class="form-group">
+                <label for="email">Numero di telefono:</label>
+                <input id="email" name="email" required="" type="email" />
+            </div>
+            <div class="form-group">
+                <label for="company">Email:</label>
+                <input id="company" name="company" required="" type="text" />
+            </div>
+            <input type="submit" value="Invia" />
+        </form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
